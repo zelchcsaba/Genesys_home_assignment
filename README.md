@@ -1,4 +1,4 @@
-# Genesys Java Home Assignment - Phone Digit Letter Combinations
+# Genesys Home Assignment
 
 ## Description
 
