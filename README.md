@@ -17,8 +17,8 @@ This Java project generates all possible **letter combinations** that a string o
 
 src/assignment/Main.java  
 src/assignment/Solver.java  
-src/test/assignment/DigitMappingValidation.java  
-src/test/assignment/InputValidation.java  
+test/assignment/DigitMappingValidation.java  
+test/assignment/InputValidation.java  
 lib/junit-platform-console-standalone-1.13.0-M3.jar  
 
 ---
