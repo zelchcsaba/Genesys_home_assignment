@@ -1,18 +1,22 @@
 package assignment;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     /**
-    * Entry point of the application. Runs a sample input
-    * and prints all possible letter combinations.
-    */
+     * Entry point of the application. Reads digits from console
+     * and prints all possible letter combinations.
+     */
     public static void main(String[] args) {
-        String digits = "23";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("digits = ");
+        String digits = scanner.nextLine().trim();
         List<String> res = new Solver().mapping(digits);
         
         printResult(res);
+        scanner.close();
     }
 
     /**

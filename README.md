@@ -41,6 +41,9 @@ javac -d out -cp lib\junit-platform-console-standalone-1.13.0-M3.jar ^ src\assig
 
 ## Running the Program
 
+> Note: The program can read digits from the console for interactive input.    
+> Unit tests, however, use fixed input values for automated testing.
+
 ```bash
 java -cp out assignment.Main
 ```
